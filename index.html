@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><b><i>Currency Converter App</i></b></div>
+    </nav>
+    <div class="container">
+        <!-- <h1>Choose a Currency to convert</h1> -->
+            <form action="">
+                <label for="quantity"><b>Enter the amount: </b></label>
+                <input type="number" name="quantity">
+                <label for="Currency"><b>Choose the Base Currency: </b></label>
+                <select name="Currency" id="">
+                    <option value="INR">Indian Rupee</option>
+                    <option value="USD">US Dollar</option>
+                    <option value="EUR">Europe Euro</option>
+                </select>
+                <button type="submit" class="btn"><b>Submit</b></button>
+            </form>
+            <div class="output">
+                <h2>Here is your converted values in different currencies</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Currency</th>
+                            <th>Currency Code</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    
+                    </tbody>
+                </table>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
